@@ -1,0 +1,22 @@
+<!-- 밝은 테마용 배너 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="320" viewBox="0 0 1600 320">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"></stop>
+      <stop offset="100%" stop-color="#22c55e"></stop>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2"></feGaussianBlur>
+    </filter>
+  </defs>
+  <rect width="1600" height="320" fill="url(#g)"></rect>
+  <!-- 부드러운 장식 원 -->
+  <circle cx="1450" cy="60" r="120" fill="rgba(255,255,255,0.15)" filter="url(#s)"></circle>
+  <circle cx="150" cy="260" r="90" fill="rgba(255,255,255,0.1)" filter="url(#s)"></circle>
+  <text x="80" y="190" font-size="64" font-family="Inter, Segoe UI, Arial, sans-serif" fill="#ffffff" font-weight="700">
+    KO.SangJin — Backend &amp; AI
+  </text>
+  <text x="80" y="230" font-size="22" font-family="Inter, Segoe UI, Arial, sans-serif" fill="rgba(255,255,255,0.9)">
+    백엔드 개발자가 목표 | Spring Boot · AWS · MariaDB · Python
+  </text>
+</svg>
